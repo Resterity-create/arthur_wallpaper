@@ -1,0 +1,208 @@
+/* ========================================================= */
+/*                ARTHUR LEYWIN DISCORD THEME                */
+/* ========================================================= */
+
+/* ========================================================= */
+/* WALLPAPER                                                 */  
+/* ========================================================= */
+body {
+    background-image: url("https://i.pinimg.com/736x/42/36/73/42367364ab0ffbe1e200200a8101be23.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ========================================================= */
+/* COLOR VARIABLES                                           */
+/* Think of these as Arthur's mana core.                     */
+/* Everything else draws power from here.                    */
+/* ========================================================= */
+
+:root {
+
+/* ===== MAIN BACKGROUNDS ===== */
+
+--background-primary: #15171C;      /* Main chat background */
+--background-secondary: #1B1F27;    /* Sidebar & panels */
+--background-tertiary: #202530;     /* Popups & extra panels */
+--background-floating: #242A36;     /* Floating menus */
+--background-accent: #343C4F;       /* Accent backgrounds */
+
+/* ===== TEXT ===== */
+
+--text-normal: #D8DCE8;             /* Normal messages */
+--text-muted: #8D95AA;              /* Timestamps, muted text */
+--text-link: #B58DFF;               /* Links */
+
+/* ===== STATUS COLORS ===== */
+
+--text-positive: #57F287;           /* Success */
+--text-warning: #FAA61A;            /* Warning */
+--text-danger: #C7465A;             /* Errors / danger */
+
+/* ===== INTERACTIVE ELEMENTS ===== */
+
+--interactive-normal: #AAB2C9;      /* Normal buttons/icons */
+--interactive-hover: #D8DCE8;       /* Hovered buttons/icons */
+--interactive-active: #9C7DFF;      /* Selected channel/button */
+--interactive-muted: #6F7688;       /* Disabled state */
+
+/* ===== BRAND COLORS ===== */
+
+--brand-color: #9C7DFF;             /* Main purple */
+--brand-experiment: #B58DFF;        /* Secondary purple */
+
+/* ===== BORDERS ===== */
+
+--outline: #343C4F;
+
+/* ===== MENTIONS ===== */
+
+--background-mentioned:
+    rgba(199,70,90,0.12);
+
+--background-mentioned-hover:
+    rgba(199,70,90,0.18);
+
+/* ===== ONLINE STATUS ===== */
+
+--status-online: #8E7DFF;
+--status-idle: #D6A55A;
+--status-dnd: #C7465A;
+--status-offline: #6F7688;
+```
+
+}
+
+/* ========================================================= */
+/* BUTTONS                                                   */
+/* ========================================================= */
+
+.button-1cRKG0 {
+
+```
+background-color: var(--brand-color);
+
+color: #ffffff;
+
+border-radius: 6px;
+```
+
+}
+
+.button-1cRKG0:hover {
+
+```
+background-color: #8660F5;
+```
+
+}
+
+/* ========================================================= */
+/* MESSAGE TEXT                                              */
+/* ========================================================= */
+
+.message-2QY9CK {
+
+```
+color: var(--text-normal);
+```
+
+}
+
+/* ========================================================= */
+/* USERNAMES                                                 */
+/* ========================================================= */
+
+.username-1A8-py {
+
+```
+color: #C9D0D9;
+```
+
+}
+
+/* ========================================================= */
+/* CHAT INPUT BOX                                            */
+/* ========================================================= */
+
+.textInput-1Z-SmL {
+
+```
+background-color: var(--background-secondary);
+
+color: var(--text-normal);
+
+border: 1px solid var(--outline);
+```
+
+}
+
+.textInput-1Z-SmL:focus {
+
+```
+border-color: var(--brand-color);
+```
+
+}
+
+/* ========================================================= */
+/* LINKS                                                     */
+/* ========================================================= */
+
+.anchor-3Z-8Bb {
+
+```
+color: var(--text-link);
+```
+
+}
+
+.anchor-3Z-8Bb:hover {
+
+```
+text-decoration: underline;
+```
+
+}
+
+/* ========================================================= */
+/* SERVER SIDEBAR                                            */
+/* ========================================================= */
+
+.sidebar-2K8pFh {
+
+```
+background-color: var(--background-primary);
+```
+
+}
+
+/* ========================================================= */
+/* MAIN CHAT AREA                                            */
+/* ========================================================= */
+
+.base-2jDqpr {
+
+```
+background-color: var(--background-primary);
+```
+
+}
+
+/* ========================================================= */
+/* SCROLLBAR                                                 */
+/* ========================================================= */
+
+::-webkit-scrollbar-thumb {
+
+```
+background: #343C4F;
+```
+
+}
+
+/* ========================================================= */
+/* END OF THEME                                              */
+/* ========================================================= */
